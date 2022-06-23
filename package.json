@@ -1,0 +1,25 @@
+{
+  "name": "nodesdk",
+  "version": "1.0.0",
+  "description": "Test Node JS SDK",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev" : "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "form-data": "^4.0.0",
+    "learnosity-sdk-nodejs": "github:Learnosity/learnosity-sdk-nodejs",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
